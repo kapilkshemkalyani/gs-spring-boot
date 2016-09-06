@@ -3,5 +3,5 @@ applications:
 - name: springboot-jenkins-kk89
   memory: 512M
   host: springboot-jenkins-kk89
-  path: target/gs-spring-boot-0.1.0.jar
+  path: initial/target/gs-spring-boot-0.1.0.jar
 

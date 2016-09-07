@@ -12,7 +12,7 @@ public class HelloController {
     }
 
     @RequestMapping("/greeting")
-    public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
+    public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
         return String.format("Hello, %s!", name);
     }
     
